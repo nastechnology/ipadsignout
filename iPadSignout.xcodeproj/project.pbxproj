@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		264D087E181560FA00BE718E /* lg_checkout.png in Resources */ = {isa = PBXBuildFile; fileRef = 264D087B181560FA00BE718E /* lg_checkout.png */; };
+		264D087F181560FA00BE718E /* med_checkout.png in Resources */ = {isa = PBXBuildFile; fileRef = 264D087C181560FA00BE718E /* med_checkout.png */; };
+		264D0880181560FA00BE718E /* small_checkout.png in Resources */ = {isa = PBXBuildFile; fileRef = 264D087D181560FA00BE718E /* small_checkout.png */; };
 		265CDF61164D5F5F009E592B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265CDF60164D5F5F009E592B /* UIKit.framework */; };
 		265CDF63164D5F5F009E592B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265CDF62164D5F5F009E592B /* Foundation.framework */; };
 		265CDF65164D5F5F009E592B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265CDF64164D5F5F009E592B /* CoreGraphics.framework */; };
@@ -23,9 +26,25 @@
 		265CDF84164D5F5F009E592B /* NACSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265CDF83164D5F5F009E592B /* NACSSecondViewController.m */; };
 		265CDF86164D5F5F009E592B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 265CDF85164D5F5F009E592B /* second.png */; };
 		265CDF88164D5F5F009E592B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 265CDF87164D5F5F009E592B /* second@2x.png */; };
+		265CDF94164D5F9E009E592B /* glyphicons_259_barcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 265CDF92164D5F9E009E592B /* glyphicons_259_barcode.png */; };
+		265CDF95164D5F9E009E592B /* glyphicons_259_barcode@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 265CDF93164D5F9E009E592B /* glyphicons_259_barcode@2x.png */; };
+		265CDFB8164D6549009E592B /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 265CDFB2164D6549009E592B /* libzbar.a */; };
+		265CDFB9164D6549009E592B /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 265CDFB4164D6549009E592B /* zbar-back.png */; };
+		265CDFBA164D6549009E592B /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = 265CDFB5164D6549009E592B /* zbar-help.html */; };
+		265CDFBB164D6549009E592B /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = 265CDFB6164D6549009E592B /* zbar-helpicons.png */; };
+		265CDFBC164D6549009E592B /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = 265CDFB7164D6549009E592B /* zbar-samples.png */; };
+		26715644165D841E00BC29BC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26715643165D841E00BC29BC /* CFNetwork.framework */; };
+		26715647165D843800BC29BC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26715646165D843800BC29BC /* AVFoundation.framework */; };
+		26715649165D844900BC29BC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26715648165D844900BC29BC /* CoreMedia.framework */; };
+		2671564B165D845200BC29BC /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2671564A165D845200BC29BC /* CoreVideo.framework */; };
+		2671564D165D845900BC29BC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2671564C165D845900BC29BC /* QuartzCore.framework */; };
+		2671564F165D847300BC29BC /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2671564E165D847300BC29BC /* libiconv.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		264D087B181560FA00BE718E /* lg_checkout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lg_checkout.png; sourceTree = "<group>"; };
+		264D087C181560FA00BE718E /* med_checkout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = med_checkout.png; sourceTree = "<group>"; };
+		264D087D181560FA00BE718E /* small_checkout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_checkout.png; sourceTree = "<group>"; };
 		265CDF5C164D5F5F009E592B /* iPadSignout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPadSignout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		265CDF60164D5F5F009E592B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		265CDF62164D5F5F009E592B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,6 +67,39 @@
 		265CDF83164D5F5F009E592B /* NACSSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NACSSecondViewController.m; sourceTree = "<group>"; };
 		265CDF85164D5F5F009E592B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		265CDF87164D5F5F009E592B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		265CDF92164D5F9E009E592B /* glyphicons_259_barcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_259_barcode.png; sourceTree = "<group>"; };
+		265CDF93164D5F9E009E592B /* glyphicons_259_barcode@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_259_barcode@2x.png"; sourceTree = "<group>"; };
+		265CDF9E164D6549009E592B /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		265CDF9F164D6549009E592B /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		265CDFA0164D6549009E592B /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		265CDFA1164D6549009E592B /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
+		265CDFA2164D6549009E592B /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		265CDFA3164D6549009E592B /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		265CDFA4164D6549009E592B /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		265CDFA5164D6549009E592B /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		265CDFA6164D6549009E592B /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		265CDFA7164D6549009E592B /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		265CDFA8164D6549009E592B /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		265CDFA9164D6549009E592B /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		265CDFAA164D6549009E592B /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		265CDFAB164D6549009E592B /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		265CDFAC164D6549009E592B /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		265CDFAD164D6549009E592B /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		265CDFAE164D6549009E592B /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		265CDFAF164D6549009E592B /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		265CDFB0164D6549009E592B /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		265CDFB1164D6549009E592B /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		265CDFB2164D6549009E592B /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
+		265CDFB4164D6549009E592B /* zbar-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-back.png"; sourceTree = "<group>"; };
+		265CDFB5164D6549009E592B /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
+		265CDFB6164D6549009E592B /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
+		265CDFB7164D6549009E592B /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
+		26715643165D841E00BC29BC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		26715646165D843800BC29BC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		26715648165D844900BC29BC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2671564A165D845200BC29BC /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		2671564C165D845900BC29BC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2671564E165D847300BC29BC /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +107,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26715644165D841E00BC29BC /* CFNetwork.framework in Frameworks */,
+				26715647165D843800BC29BC /* AVFoundation.framework in Frameworks */,
+				26715649165D844900BC29BC /* CoreMedia.framework in Frameworks */,
+				2671564B165D845200BC29BC /* CoreVideo.framework in Frameworks */,
+				2671564D165D845900BC29BC /* QuartzCore.framework in Frameworks */,
+				2671564F165D847300BC29BC /* libiconv.dylib in Frameworks */,
 				265CDF61164D5F5F009E592B /* UIKit.framework in Frameworks */,
 				265CDF63164D5F5F009E592B /* Foundation.framework in Frameworks */,
 				265CDF65164D5F5F009E592B /* CoreGraphics.framework in Frameworks */,
+				265CDFB8164D6549009E592B /* libzbar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +143,12 @@
 		265CDF5F164D5F5F009E592B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2671564E165D847300BC29BC /* libiconv.dylib */,
+				2671564C165D845900BC29BC /* QuartzCore.framework */,
+				2671564A165D845200BC29BC /* CoreVideo.framework */,
+				26715648165D844900BC29BC /* CoreMedia.framework */,
+				26715646165D843800BC29BC /* AVFoundation.framework */,
+				26715643165D841E00BC29BC /* CFNetwork.framework */,
 				265CDF60164D5F5F009E592B /* UIKit.framework */,
 				265CDF62164D5F5F009E592B /* Foundation.framework */,
 				265CDF64164D5F5F009E592B /* CoreGraphics.framework */,
@@ -113,6 +178,12 @@
 		265CDF67164D5F5F009E592B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				264D087B181560FA00BE718E /* lg_checkout.png */,
+				264D087C181560FA00BE718E /* med_checkout.png */,
+				264D087D181560FA00BE718E /* small_checkout.png */,
+				265CDF9A164D6549009E592B /* ZBarSDK */,
+				265CDF92164D5F9E009E592B /* glyphicons_259_barcode.png */,
+				265CDF93164D5F9E009E592B /* glyphicons_259_barcode@2x.png */,
 				265CDF68164D5F5F009E592B /* iPadSignout-Info.plist */,
 				265CDF69164D5F5F009E592B /* InfoPlist.strings */,
 				265CDF6C164D5F5F009E592B /* main.m */,
@@ -122,6 +193,70 @@
 				265CDF76164D5F5F009E592B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		265CDF9A164D6549009E592B /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				265CDF9B164D6549009E592B /* Headers */,
+				265CDFB2164D6549009E592B /* libzbar.a */,
+				265CDFB3164D6549009E592B /* Resources */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		265CDF9B164D6549009E592B /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				265CDF9C164D6549009E592B /* ZBarSDK */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		265CDF9C164D6549009E592B /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				265CDF9D164D6549009E592B /* zbar */,
+				265CDFA7164D6549009E592B /* zbar.h */,
+				265CDFA8164D6549009E592B /* ZBarCameraSimulator.h */,
+				265CDFA9164D6549009E592B /* ZBarCaptureReader.h */,
+				265CDFAA164D6549009E592B /* ZBarHelpController.h */,
+				265CDFAB164D6549009E592B /* ZBarImage.h */,
+				265CDFAC164D6549009E592B /* ZBarImageScanner.h */,
+				265CDFAD164D6549009E592B /* ZBarReaderController.h */,
+				265CDFAE164D6549009E592B /* ZBarReaderView.h */,
+				265CDFAF164D6549009E592B /* ZBarReaderViewController.h */,
+				265CDFB0164D6549009E592B /* ZBarSDK.h */,
+				265CDFB1164D6549009E592B /* ZBarSymbol.h */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		265CDF9D164D6549009E592B /* zbar */ = {
+			isa = PBXGroup;
+			children = (
+				265CDF9E164D6549009E592B /* Decoder.h */,
+				265CDF9F164D6549009E592B /* Exception.h */,
+				265CDFA0164D6549009E592B /* Image.h */,
+				265CDFA1164D6549009E592B /* ImageScanner.h */,
+				265CDFA2164D6549009E592B /* Processor.h */,
+				265CDFA3164D6549009E592B /* Scanner.h */,
+				265CDFA4164D6549009E592B /* Symbol.h */,
+				265CDFA5164D6549009E592B /* Video.h */,
+				265CDFA6164D6549009E592B /* Window.h */,
+			);
+			path = zbar;
+			sourceTree = "<group>";
+		};
+		265CDFB3164D6549009E592B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				265CDFB4164D6549009E592B /* zbar-back.png */,
+				265CDFB5164D6549009E592B /* zbar-help.html */,
+				265CDFB6164D6549009E592B /* zbar-helpicons.png */,
+				265CDFB7164D6549009E592B /* zbar-samples.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +288,11 @@
 				CLASSPREFIX = NACS;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Napoleon Area City School District";
+				TargetAttributes = {
+					265CDF5B164D5F5F009E592B = {
+						DevelopmentTeam = 874CWW9SJV;
+					};
+				};
 			};
 			buildConfigurationList = 265CDF56164D5F5F009E592B /* Build configuration list for PBXProject "iPadSignout" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -184,7 +324,16 @@
 				265CDF7F164D5F5F009E592B /* first.png in Resources */,
 				265CDF81164D5F5F009E592B /* first@2x.png in Resources */,
 				265CDF86164D5F5F009E592B /* second.png in Resources */,
+				264D087F181560FA00BE718E /* med_checkout.png in Resources */,
 				265CDF88164D5F5F009E592B /* second@2x.png in Resources */,
+				265CDF94164D5F9E009E592B /* glyphicons_259_barcode.png in Resources */,
+				264D087E181560FA00BE718E /* lg_checkout.png in Resources */,
+				265CDF95164D5F9E009E592B /* glyphicons_259_barcode@2x.png in Resources */,
+				265CDFB9164D6549009E592B /* zbar-back.png in Resources */,
+				265CDFBA164D6549009E592B /* zbar-help.html in Resources */,
+				265CDFBB164D6549009E592B /* zbar-helpicons.png in Resources */,
+				265CDFBC164D6549009E592B /* zbar-samples.png in Resources */,
+				264D0880181560FA00BE718E /* small_checkout.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +395,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -266,7 +415,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -276,10 +425,19 @@
 		265CDF8C164D5F5F009E592B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPadSignout/iPadSignout-Prefix.pch";
 				INFOPLIST_FILE = "iPadSignout/iPadSignout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/iPadSignout/ZBarSDK\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -287,10 +445,19 @@
 		265CDF8D164D5F5F009E592B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPadSignout/iPadSignout-Prefix.pch";
 				INFOPLIST_FILE = "iPadSignout/iPadSignout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/iPadSignout/ZBarSDK\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -314,6 +481,7 @@
 				265CDF8D164D5F5F009E592B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
